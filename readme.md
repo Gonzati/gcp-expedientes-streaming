@@ -101,8 +101,8 @@ Timeline of legal states
 ├── docs/
 │   ├── architecture.md
 │   └── dashboard_screenshot.png
-├── notebooks/
-│   └── load_initial_data.ipynb
+├── scripts/
+│   └── load_initial_data.py
 └── README.md
 
 ## ⚙️ 4. How to Reproduce
