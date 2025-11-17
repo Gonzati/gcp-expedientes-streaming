@@ -1,0 +1,97 @@
+# ───────────────────────────────
+# Python
+# ───────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+env/
+.jupyter_env/
+.jupyter/
+.ipynb_checkpoints/
+
+# Build and distribution
+build/
+dist/
+*.whl
+
+# Cache
+.cache/
+.mypy_cache/
+pytest_cache/
+
+# ───────────────────────────────
+# Jupyter Notebooks
+# ───────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ───────────────────────────────
+# IDE / Editor files
+# ───────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ───────────────────────────────
+# Google Cloud / Credentials
+# ───────────────────────────────
+# NEVER upload credentials
+*.json
+*.p12
+credentials/
+oauth2.keys
+token*
+
+# Service account keys
+**/*service-account*.json
+**/*sa-key*.json
+**/*gcloud*.json
+
+# ───────────────────────────────
+# Dataflow / Beam Artifacts
+# ───────────────────────────────
+# Beam temp files
+beam-temp*
+beam-staging*
+beam-job-*
+pipeline-staging/
+pipeline-temp/
+
+# Local runner temp files
+*.tmp
+*.temp
+
+# ───────────────────────────────
+# Logs
+# ───────────────────────────────
+*.log
+logs/
+*.out
+
+# ───────────────────────────────
+# OS-specific
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ───────────────────────────────
+# Project-specific
+# ───────────────────────────────
+# Avoid uploading test inputs or cached results
+data/
+tests/data/
+
+# Looker screenshots or exported reports (explicitly add only if needed)
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
