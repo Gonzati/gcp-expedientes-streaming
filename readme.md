@@ -13,8 +13,6 @@ This project is fully reproducible.
 
 The solution implements a real-time event-driven pipeline:
 
-```mermaid
-flowchart LR
     A[Jupyter / Python<br>Event Generator] -->|JSON events| B(Pub/Sub Topic)
     B --> C[Dataflow Streaming Pipeline]
     C --> D[BigQuery: Expedientes_Staging<br>(append-only)]
