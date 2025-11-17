@@ -1,0 +1,8 @@
+apache-beam[gcp]==2.56.0
+
+google-cloud-bigquery==3.17.2
+google-cloud-pubsub==2.18.4
+google-cloud-storage==2.16.0
+
+orjson==3.10.6
+protobuf==4.25.3
